@@ -3,7 +3,8 @@ import {Link} from 'react-scroll';
 
 export default function DropdownItem(){
     return(
-        <div>                  
+        <div className="pt-1 rounded-lg">                 
+            
             <ul className="flex-col justify-around font-medium px-4 py-6 cursor-pointer bg-cyan-600 text-white">
 
                 <li className="hover:font-bold">
@@ -67,6 +68,7 @@ export default function DropdownItem(){
                     </Link>
                 </li>
             </ul>
+  
          </div>
     )
 }
