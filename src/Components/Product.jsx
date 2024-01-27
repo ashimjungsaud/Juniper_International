@@ -1,7 +1,7 @@
 
 import React from 'react';
-import CardProduct from "./CardProduct.js";
-import Data from './Data.js';
+import CardProduct from "./CardProduct.jsx";
+import Data from './Data.jsx';
 import ProductNavbar from './ProductNavbar.jsx';
 
 
