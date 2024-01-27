@@ -8,9 +8,9 @@ function Dropdown() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <div className="flex flex-col rounded-lg items-center px-2">
+        <div className="flex flex-col rounded-lg items-center px-2 py-1.5">
             <button onClick={() => setIsOpen((prev) => !prev)}
-                className="flex bg-cyan-600 py-2 px-3 rounded-lg border-4 border-transparent active:border-black duration-400 active:text-white"
+                className="flex"
             >
                 Product Categories
                 {!isOpen ? (

@@ -17,12 +17,13 @@ export default function Products(props){
       return(
           <div className="Products pb-3">
           <h1 className="font-extrabold text-3xl py-6 text-slate-800">Our Products</h1>
-            <div className="Cards flex justify-around flex-wrap p-2 gap-y-4">
+            <div className="Cards flex justify-center flex-wrap gap-x-2 gap-y-4 pb-4">
               <Card src={"/Images/UrologyImg.png"} name= "Urology"/>
               <Card src={"/Images/i2.jpg"} name="Infusion & Transfusion"/>
               <Card src={"/Images/GlovesImg.png"} name="Gloves"/>
-              <Card src={"/Images/OrthopaedicImg.png"} name="Orthopaedic"/>
-              <Card src={"/Images/Locker.jpeg"} name="Locker"/>
+              <Card src={"/Images/rehab5.jpeg"} name="Rehab Products"/>
+              <Card src={"/Images/furniture1.jpeg"} name="Hospital Furniture"/>
+              <Card src={"/Images/g1.jpeg"} name="Gowns"/>
            </div>
 
            <button className='productButton bg-cyan-600 rounded-lg p-2 text-white hover:bg-cyan-800 hover:p-3' 

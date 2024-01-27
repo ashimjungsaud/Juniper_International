@@ -7,7 +7,7 @@ import Navbar from './Navbar';
 
 function Home() {
   return (
-    <div className="App m-1 bg-color-5">    
+    <div className="App bg-color-5 text-slate-700">    
          <Navbar/> 
          <Motto/>
          <About/>
