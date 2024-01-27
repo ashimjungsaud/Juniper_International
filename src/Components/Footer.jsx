@@ -31,18 +31,18 @@ const ContactLinks = () => {
                     <div className="flex flex-col py-4">
 
                         <div className="flex pl-2 py-2 gap-1 justify-center">
-                            <a href="tel:9851097188"><MdOutlineLocalPhone size={25} /></a>
-                            <a href="tel:9851097188">+977 9851097188</a>
+                            <a href="tel:+9779818420460"><MdOutlineLocalPhone size={25} /></a>
+                            <a href="tel:+9779818420460">+977 9818420460</a>
                         </div>
 
                         <div className="flex pl-2 py-2 gap-1 justify-center">
-                            <a href="https://wa.me/+9779851097188"><FaWhatsapp size={25} /></a>
-                            <a href="https://wa.me/+9779851097188">+977 9851097188</a>
+                            <a href="https://wa.me/+9779818420460"><FaWhatsapp size={25} /></a>
+                            <a href="https://wa.me/+9779818420460">+977 9818420460</a>
                         </div>
 
                         <div className="flex pl-2 py-2 gap-1 justify-center">
-                            <a href="mailto:xinfull69@gmail.com"><CgMail size={25} /></a>
-                            <a href="mailto:gopaldai@hotmail.com">gopaldai@hotmail.com</a>
+                            <a href="mailto:Juniperinternationalnepal@gmail.com"><CgMail size={25} /></a>
+                            <a href="mailto:Juniperinternationalnepal@gmail.com">Juniperinternationalnepal@gmail.com</a>
                         </div>
                     </div>
                 </div>
